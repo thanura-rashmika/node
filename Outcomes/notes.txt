@@ -1,1 +1,2 @@
 npm init initialized the project with the package.json file(Created Package.json)
+Added nodemon -> A library which auto restarts our node server

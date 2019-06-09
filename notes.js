@@ -1,7 +1,7 @@
 const fs = require('fs');
 const os = require('os');
 
-const processor = (user) => {
+const processor = () => {
     return os.cpus()[0].model;
 };
 const user = () => {
@@ -14,5 +14,5 @@ module.exports = {
 };
 
 module.exports.logg = (user, processor) => {
-    fs.appendFileSync('log.txt', `\nUser : ${user} || Processor : ${processor}`);
-};
+    fs.appendFileSync('log.txt', `\nUser : ${user} with Processor : ${processor} on ${new Date()}`);
+};  
