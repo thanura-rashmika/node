@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/thanura-rashmika/node#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "hbs": "^4.0.4",
     "lodash": "^4.17.11",
     "mongodb": "^3.2.7",
+    "mongoose": "^5.5.14",
     "request": "^2.73.0",
     "yargs": "^4.7.1"
   }
